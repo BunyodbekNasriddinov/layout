@@ -3,8 +3,7 @@
     {
       "format": "expanded",
       "extensionName": ".css",
-      "savePath": "css",
-      "savePathReplacementPairs": null
+      "savePath": "css"
     }
   ],
   "liveServer.settings.port": 5500,
