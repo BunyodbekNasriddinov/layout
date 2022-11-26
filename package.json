@@ -6,6 +6,7 @@
   "version": "1.0.0",
   "main": "tailwind.config.js",
   "dependencies": {
+    "-": "^0.0.1",
     "acorn": "^7.4.1",
     "acorn-node": "^1.8.2",
     "acorn-walk": "^7.2.0",
@@ -24,6 +25,7 @@
     "fast-glob": "^3.2.12",
     "fastq": "^1.13.0",
     "fill-range": "^7.0.1",
+    "full": "^1.0.1",
     "function-bind": "^1.1.1",
     "glob-parent": "^6.0.2",
     "has": "^1.0.3",
@@ -35,6 +37,7 @@
     "lilconfig": "^2.0.6",
     "merge2": "^1.4.1",
     "micromatch": "^4.0.5",
+    "minimist": "^1.2.7",
     "nanoid": "^3.3.4",
     "normalize-path": "^3.0.0",
     "object-hash": "^3.0.0",
@@ -57,16 +60,15 @@
     "reusify": "^1.0.4",
     "run-parallel": "^1.2.0",
     "source-map-js": "^1.0.2",
+    "supports-preserve-symlinks-flag": "^1.0.0",
     "to-regex-range": "^5.0.1",
     "util-deprecate": "^1.0.2",
     "xtend": "^4.0.2",
-    "yaml": "^1.10.2",
-    "supports-preserve-symlinks-flag": "^1.0.0",
-    "minimist": "^1.2.7"
+    "yaml": "^1.10.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"npx tailwindcss -i ./src/style.css -o ./src/main.css --watch"
+    "build": "npx tailwindcss -i ./src/style.css -o ./src/main.css --watch"
   },
   "author": "",
   "license": "ISC",
