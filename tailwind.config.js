@@ -2,8 +2,11 @@ module.exports = {
   content: ["./src/**/*.html"],
   theme: {
     extend: {
-      colors: {
+      color: {
         'btn': '#AEA38B',
+      },
+      colors: {
+        'tcolor': '#AEA38B',
       },
     },
   },
