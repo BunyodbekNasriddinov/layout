@@ -1,6 +1,131 @@
 //**************//
 //*** HEADER ***//
 //**************//
+.start{
+background-image: url("/layout/image/header-bg.jpg");
+background-repeat: no-repeat;
+background-size:100% 100%;
+}
+.start__inner{
+
+}
+.start__top{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+// .start__img{
+//     padding-left: 20px;
+// }
+.start__nav{
+
+}
+.start__list{
+margin: 0;
+padding: 0;
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.start__item+.start__item{
+margin-left:50px ;
+}
+.start__link{
+text-decoration: none;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.start__link:hover{
+    border-bottom: 1px solid 
+    #D8B152;
+}
+
+// -------------start midle------------------
+
+.srart__midle{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 434px;
+}
+.h-content{
+    width: 100%;
+    max-width: 860px
+}
+.start__title{
+    margin: 0;
+padding: 0;
+
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 140%;
+    /* or 78px */
+    
+    
+    color: #FFFFFF;
+}
+.start__content{
+    width: 100%;
+    max-width: 260px  
+}
+.start__con-title{
+    margin: 0;
+    margin-bottom: 20px;
+padding: 0;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.start__button{
+    margin-bottom: 20px;
+    padding: 18px 80px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #D8B152;
+    border: 2px solid transparent;
+}
+.start__button:hover{
+    color:#D8B152 ;
+    background-color: #FFFFFF;
+    border: 2px solid #D8B152;
+}
+// ------------span----------------
+
+.spans{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.span{
+   margin-left: 20px;
+ display: inline-block;
+  
+   width: 20px;
+   height: 20px;
+   border: 1px solid #FFFFFF;
+   border-radius: 50px;
+}
+.span:hover{
+    background-color: #FFFFFF;
+}
+
+
 
 //************//
 //***TABLET***//
