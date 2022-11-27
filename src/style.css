@@ -2,3 +2,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container {
+    width: 1190px;
+    margin: 0 auto;
+    padding: 10px;
+}
