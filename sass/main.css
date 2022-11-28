@@ -483,6 +483,172 @@ img {
   background-color: #FFFFFF;
 }
 
+.bottom {
+  margin-top: 140px;
+  padding-top: 120px;
+  background-color: #202020;
+}
+
+.aloqa__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  margin-top: 30px;
+}
+
+.aloqa__contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.informatsia {
+  margin-right: 108px;
+}
+
+.strong {
+  margin-bottom: 21px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.aloqa__list {
+  margin: 0;
+  margin-top: 21px;
+  padding: 0;
+  list-style: none;
+}
+
+.aloqa__item {
+  margin: 0;
+  padding: 0;
+}
+
+.aloqa__link {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.kontact {
+  margin-right: 97px;
+  position: relative;
+}
+
+.kontact__tel {
+  padding-left: 32px;
+  display: block;
+  margin-top: 21px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.kontact__tel::before {
+  content: "";
+  position: absolute;
+  background-image: url("/layout/image/telefon.svg");
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 22px;
+  left: 0;
+  top: 50px;
+}
+
+.kontact__email {
+  padding-left: 32px;
+  display: block;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.kontact__email::before {
+  content: "";
+  position: absolute;
+  background-image: url("/layout/image/email.svg");
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 22px;
+  left: 0;
+  top: 85px;
+}
+
+.ceti__list {
+  margin: 0;
+  margin-top: 21px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ceti__item + .ceti__item {
+  margin-left: 20px;
+}
+
+.ceti__img {
+  padding: 13px;
+  border: 1px solid #D8B152;
+}
+
+.ceti__imgf {
+  padding: 13px;
+  border: 1px solid #D8B152;
+  background-color: #D8B152;
+}
+
+.chiziq {
+  border: 1px solid #D8B152;
+  margin-bottom: 50px;
+}
+
+.end {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.end__span {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #FFFFFF;
+}
+
+.end__link {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #FFFFFF;
+}
+
 .uslugi {
   margin-top: 120px;
 }
