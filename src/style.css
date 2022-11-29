@@ -4,7 +4,8 @@
 @tailwind utilities;
 
 .container {
+    max-width: 100%;
     width: 1190px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 0 10px;
 }
