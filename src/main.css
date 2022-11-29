@@ -955,7 +955,9 @@ video {
 
 .pb-36 {
   padding-bottom: 9rem;
+
 }
+
 .font-\[\'Open_Sans\'\] {
   font-family: 'Open Sans';
 
@@ -1160,7 +1162,11 @@ video {
 
   .md\:gap-0 {
     gap: 0px;
+
+    }
+
 }
+
 
 @media (min-width: 1024px) {
   .lg\:mt-28 {
