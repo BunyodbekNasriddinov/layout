@@ -1,0 +1,26 @@
+.media__item{
+    margin: 0;
+    margin-bottom: 140px;
+    padding: 0;
+    width: 100%;
+    max-width: 360px;
+    height: 360px;
+    text-align: center;
+   
+
+}
+.media__item:nth-child(1){
+    background-image: url("/./layout/image/media-bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.media__item:nth-child(2){
+    background-image: url("/./layout/image/media-bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.media__item:nth-child(3){
+    background-image: url("/./layout/image/media-bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
