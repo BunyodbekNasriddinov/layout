@@ -3,6 +3,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+
+        'btn': '#AEA38B',
+      },
+
         textColor: "#424242",
         bgBtnColor: "#D8B152",
         proektText: '#424242;',
@@ -12,6 +16,7 @@ module.exports = {
       fontFamily: {
         openSans: "'Open Sans'"
       }
+
     },
   },
   plugins: [],
