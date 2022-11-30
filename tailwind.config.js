@@ -3,6 +3,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+
+        'tcolor': '#424242',
+      },
+      colors: {
+        'btncolor': '#AEA38B',
+      },
+      width: {
+        'imgwidth': '360px',
+      },
+
         'btn': '#AEA38B',
         textColor: "#424242",
         bgBtnColor: "#D8B152",
@@ -20,6 +30,7 @@ module.exports = {
         familyContentMobile: '300px',
         aboutImgWidth: '480px'
       }
+
 
     },
   },
