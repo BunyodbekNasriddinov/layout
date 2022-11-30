@@ -547,6 +547,26 @@ video {
   }
 }
 
+.col-start-1 {
+  grid-column-start: 1;
+}
+
+.col-start-5 {
+  grid-column-start: 5;
+}
+
+.col-end-5 {
+  grid-column-end: 5;
+}
+
+.col-end-13 {
+  grid-column-end: 13;
+}
+
+.col-end-12 {
+  grid-column-end: 12;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -559,13 +579,37 @@ video {
   margin-top: 1.25rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .w-max {
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-80 {
+  width: 20rem;
 }
 
 .max-w-screen-lg {
@@ -576,8 +620,12 @@ video {
   list-style-type: none;
 }
 
-.border {
-  border-width: 1px;
+.grid-cols-12 {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .border-b {
@@ -607,14 +655,6 @@ video {
   padding-bottom: 3rem;
 }
 
-.font-openSans {
-  font-family: 'Open Sans';
-}
-
-.font-\[\'Open_Sans\'\] {
-  font-family: 'Open Sans';
-}
-
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
@@ -628,6 +668,16 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-semibold {
@@ -648,8 +698,81 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+@media (min-width: 640px) {
+  .sm\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+
+  .sm\:col-start-1 {
+    grid-column-start: 1;
+  }
+
+  .sm\:col-start-11 {
+    grid-column-start: 11;
+  }
+
+  .sm\:col-end-12 {
+    grid-column-end: 12;
+  }
+
+  .sm\:col-end-13 {
+    grid-column-end: 13;
+  }
+}
+
 @media (min-width: 1024px) {
+  .lg\:col-start-1 {
+    grid-column-start: 1;
+  }
+
+  .lg\:col-start-5 {
+    grid-column-start: 5;
+  }
+
+  .lg\:col-end-5 {
+    grid-column-end: 5;
+  }
+
+  .lg\:col-end-12 {
+    grid-column-end: 12;
+  }
+
+  .lg\:col-end-13 {
+    grid-column-end: 13;
+  }
+
   .lg\:mt-28 {
     margin-top: 7rem;
+  }
+
+  .lg\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .lg\:w-10 {
+    width: 2.5rem;
+  }
+
+  .lg\:w-64 {
+    width: 16rem;
+  }
+
+  .lg\:w-96 {
+    width: 24rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
