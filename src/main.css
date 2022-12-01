@@ -567,8 +567,17 @@ video {
   right: 0px;
 }
 
+
 .left-0 {
   left: 0px;
+=======
+.col-start-1 {
+  grid-column-start: 1;
+}
+
+.col-end-13 {
+  grid-column-end: 13;
+
 }
 
 .m-auto {
@@ -680,6 +689,12 @@ video {
 
 .mb-3 {
   margin-bottom: 0.75rem;
+
+}
+
+.ml-28 {
+  margin-left: 7rem;
+
 }
 
 .ml-28 {
@@ -778,12 +793,18 @@ video {
   height: 15rem;
 }
 
+
 .h-full {
   height: 100%;
 }
 
+
 .w-aboutImgWidth {
   width: 480px;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .w-64 {
@@ -802,6 +823,7 @@ video {
   width: 24rem;
 }
 
+
 .w-imgwidth {
   width: 360px;
 }
@@ -813,6 +835,7 @@ video {
 .w-familyContent {
   width: 860px;
 }
+
 
 .w-52 {
   width: 13rem;
@@ -848,6 +871,10 @@ video {
 
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-12 {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
 .grid-cols-4 {
@@ -1123,6 +1150,7 @@ video {
   padding-top: 10rem;
 }
 
+
 .pl-7 {
   padding-left: 1.75rem;
 }
@@ -1134,6 +1162,7 @@ video {
 .pt-4 {
   padding-top: 1rem;
 }
+
 
 .pr-2 {
   padding-right: 0.5rem;
@@ -1178,9 +1207,19 @@ video {
   line-height: 1.75rem;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .text-xl {
@@ -1291,10 +1330,12 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+
 .before\:bg-befor::before {
   content: var(--tw-content);
   background-image: url('/1-2-3-page-image/bg-lefit.svg');
 }
+
 
 .hover\:cursor-pointer:hover {
   cursor: pointer;
@@ -1609,6 +1650,22 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:col-start-1 {
+    grid-column-start: 1;
+  }
+
+  .lg\:col-start-5 {
+    grid-column-start: 5;
+  }
+
+  .lg\:col-end-5 {
+    grid-column-end: 5;
+  }
+
+  .lg\:col-end-13 {
+    grid-column-end: 13;
+  }
+
   .lg\:mr-10 {
     margin-right: 2.5rem;
   }
@@ -1670,6 +1727,16 @@ video {
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
