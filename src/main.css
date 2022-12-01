@@ -567,10 +567,6 @@ video {
   right: 0px;
 }
 
-.left-0 {
-  left: 0px;
-}
-
 .m-auto {
   margin: auto;
 }
@@ -1289,11 +1285,6 @@ video {
 .placeholder\:text-white::placeholder {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.before\:bg-befor::before {
-  content: var(--tw-content);
-  background-image: url('/1-2-3-page-image/bg-lefit.svg');
 }
 
 .hover\:cursor-pointer:hover {
