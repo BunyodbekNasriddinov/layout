@@ -48,6 +48,7 @@ module.exports = {
         'card8': "url('/1-2-3-page-image/card8.jpg')",
         'tel': "url('/1-2-3-page-image/telefon.svg')",
         'email': "url('/1-2-3-page-image/email.svg')",
+        'befor': "url('/1-2-3-page-image/bg-lefit.svg')",
         
        
       

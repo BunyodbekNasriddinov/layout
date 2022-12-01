@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media-page</title>
+    <title>3-page</title>
     <link rel="stylesheet" href="./main.css">
 </head>
 
-<body>
+<body class="">
     <header class="site--header start ">
         <!-- <img src="/1-2-3-page-image/header-bg.jpg" alt=""> -->
         <div class="container mx-auto px-5">
@@ -38,37 +38,57 @@
             </div>
         </div>
     </header>
-    <main>
-        <section class="uslugi">
-            <div class="container mx-auto px-5">
-                <div class="uslugi__inner">
-                    <h2 class="uslugi__titles text-5xl">Медиафайлы</h2>
-                    <ol class="uslugi__list grid grid-cols-3 gap-10 mb-36 mt-16 text-center text-white text-3xl">
-                        <li class="media__item bg-uslug1 h-96 pt-40">
-                            <h3 class="uslugi__title ">Награды</h3>
-                        </li>
-                        <li class="media__item bg-uslug2 ">
-                            <div class="uslugi__content1 mt-32">
-                                <h3 class="uslugi__title2 ">Публикации</h3>
-                                <button class="uslugi__button text-lg">Посмотреть</button>
-                            </div>
 
-                        </li>
-                        <li class="media__item bg-uslug3 pt-40">
-                            <div class="uslugi__content2">
-                                <h3 class="uslugi__title">Отзывы </h3>
-                            </div>
 
-                        </li>
-                    </ol>
+    <!-- ------------------------------------------------coru---------------------------------- -->
+ <main>
+    <section>
+        <div class="container mx-auto px-5">
+            <h1 class="text-5xl  mb-16">Отзывы наших клиентов</h1>
+
+        </div>
+        <div class="flex items-center justify-between  mb-36">
+            <img src="/1-2-3-page-image/carusel-l0.5.png" alt="#" width="280" height="172">
+            <!-- ------------------------------------------------------------- -->
+            <img src="/1-2-3-page-image/bg-lefit.svg" alt="" width="">
+            <img class=" " src="/1-2-3-page-image/crusel2.png" alt="#" width="560" height="172">
+            <img src="/1-2-3-page-image/bg-raght.svg" alt="">
+            <!-- -------------------------------------------------------- -- -->
+            <img src="/1-2-3-page-image/carusel-r0.5.png" alt="#" width="280" height="172">
+           
+
+
+        </div>
+    </section>
+    <div class="">
+
+    </div>
+
+<!-- --------------------------Form----------------------------- -->
+<section class="proect">
+    <div class="container mx-auto px-5">
+        <div class="proect__inner">
+            <h2 class="proect__title text-5xl mb-5">Заказывали проект у нас?</h2>
+            <p class="proect__text text-lg">Оставьте ваш отзыв в форме ниже и мы его опубликуем на нашем сайте</p>
+            <form class=" flex gap-11 mt-16 mb-16" action="https://echo.htmlacademy.ru/" method="post">
+                <div class="proect__content w-imgwidth text-center">
+                    <label>
+                        <input class="proect__input block border-2 py-4 mb-5 pl-7  w-full  border-amber-500" type="text" placeholder="Ваше имя">
+                        <input class="proect__tel block border-2 py-4 mb-8 pl-7  w-full border-amber-500" type="tel" placeholder="Номер телефона">
+                        <button class=" block border-2 w-full text-center py-4 bg-yellow-500 text-white" type="submit">Отправить</button>
+                    </label>
                 </div>
-            </div>
-        </section>
-    </main>
+                <textarea class="border-2 w-familyContent h-60 pl-8 pt-4 border-amber-500 ml-10 "  cols="30" rows="10" placeholder="Ваш отзыв" ></textarea>
 
+            </form>
 
+        </div>
+    </div>
+   </section>
+ </main>
 
     <!-- -----------------------------------Footer----------------------------------------------------- -->
+
     <footer class="bottom bg-black">
         <div class="container mx-auto px-5">
             <div class="aliqa aloqa__inner flex items-center justify-between">
@@ -174,6 +194,8 @@
         </div>
 
     </footer>
+
+
 </body>
 
 </html>
