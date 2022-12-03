@@ -567,12 +567,17 @@ video {
   right: 0px;
 }
 
+
+.left-0 {
+  left: 0px;
+=======
 .col-start-1 {
   grid-column-start: 1;
 }
 
 .col-end-13 {
   grid-column-end: 13;
+
 }
 
 .col-end-3 {
@@ -704,8 +709,6 @@ video {
   margin-top: 4rem;
 }
 
-<<<<<<< HEAD
-=======
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -714,7 +717,6 @@ video {
   margin-left: 2.5rem;
 }
 
->>>>>>> b7ab68d23fa16af0558d36d300d224a6d043c3a7
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -1367,6 +1369,13 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+
+
+.before\:bg-befor::before {
+  content: var(--tw-content);
+  background-image: url('/1-2-3-page-image/bg-lefit.svg');
+}
+
 
 .hover\:cursor-pointer:hover {
   cursor: pointer;
