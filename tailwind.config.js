@@ -34,6 +34,7 @@ module.exports = {
   
       backgroundImage: {
         'hero-pattern': "url('/1-2-3-page-image/header-bg.jpg')",
+
         'uslug1': "url('/1-2-3-page-image/uslug-bg1.jpg')",
         'uslug2': "url('/1-2-3-page-image/uslug-bg2.jpg')",
         'uslug3': "url('/1-2-3-page-image/uslug-bg3.jpg')",

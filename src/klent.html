@@ -14,9 +14,14 @@
         <div class="container mx-auto px-5">
             <div class="start__inner ">
                 <div class="start__top flex items-center justify-between">
-                <a href="./glavni.html">    <img class="start__img" src="/1-2-3-page-image/media-logo.svg" alt="header-logo" width="250"
-                    height="200"></a>
-                    <nav class="start__nav ">
+                    <a href="./glavni.html"> <img
+                            class="start__img sm:w-20 sm:h-20 md:w-36 md:h-36 lg:w-72 lg:h-72 w-20 h-20"
+                            src="/1-2-3-page-image/media-logo.svg" alt="header-logo" width="250" height="200"></a>
+
+                    <a class="  sm:block  md:block lg:hidden" href="./klent.html">
+                        <img src="/1-2-3-page-image/leovt-меню.svg" alt="menu" width="60" height="16">
+                    </a>
+                    <nav class="start__nav hidden sm:hidden md:hidden lg:block">
                         <ol class="start__list flex items-center justify-between gap-12 ">
                             <li class="">
                                 <a class="start__link  hover:border-b-2 border-amber-500" href="./media.html">Наши
@@ -33,6 +38,7 @@
                                     href="./glavni.html">Контакты</a>
                             </li>
                         </ol>
+                    </nav>
                 </div>
             </div>
         </div>
@@ -40,67 +46,77 @@
 
 
     <!-- ------------------------------------------------coru---------------------------------- -->
- <main>
-    <section>
-        <div class="container mx-auto px-5">
-            <h1 class="text-5xl  mb-16">Отзывы наших клиентов</h1>
+    <main>
+        <section>
+            <div class="container mx-auto px-5">
+                <h1 class=" mb-16 sm:text-base md:text-4xl lg:text-5xl text-base">Отзывы наших клиентов</h1>
+
+            </div>
+            <div class="flex items-center justify-between  mb-36">
+                <img class="hidden lg:block" src="/1-2-3-page-image/carusel-l0.5.png" alt="#" width="280" height="172">
+                <!-- ------------------------------------------------------------- -->
+                <img src="/1-2-3-page-image/bg-lefit.svg" alt="" width="">
+                <img class="sm:w-full sm:h-32  md:w-full md:h-44    lg:w-screen lg:h-52" class=" "
+                    src="/1-2-3-page-image/crusel2.png" alt="#" width="560" height="172">
+                <img src="/1-2-3-page-image/bg-raght.svg" alt="">
+                <!-- -------------------------------------------------------- -- -->
+                <img class="hidden lg:block" src="/1-2-3-page-image/carusel-r0.5.png" alt="#" width="280" height="172">
+
+            </div>
+        </section>
+        <div class="">
 
         </div>
-        <div class="flex items-center justify-between  mb-36">
-            <img src="/1-2-3-page-image/carusel-l0.5.png" alt="#" width="280" height="172">
-            <!-- ------------------------------------------------------------- -->
-            <img src="/1-2-3-page-image/bg-lefit.svg" alt="" width="">
-            <img class=" " src="/1-2-3-page-image/crusel2.png" alt="#" width="560" height="172">
-            <img src="/1-2-3-page-image/bg-raght.svg" alt="">
-            <!-- -------------------------------------------------------- -- -->
-            <img src="/1-2-3-page-image/carusel-r0.5.png" alt="#" width="280" height="172">
-           
 
+        <!-- --------------------------Form----------------------------- -->
+        <section class="proect">
+            <div class="container mx-auto px-5">
+                <div class="proect__inner">
+                    <h2 class="   text-5xl">Заказывали проект у нас?</h2>
+                    <p class=" sm:text-xl md:text-base lg:text-lg">Оставьте ваш отзыв в форме ниже и мы его опубликуем
+                        на нашем сайте</p>
+                    <form
+                        class=" flex mt-16 mb-16 sm:flex-wrap sm:gap-11  md:flex-nowrap md:gap-11 lg:flex-nowrap lg:gap-11  flex-wrap"
+                        action="https://echo.htmlacademy.ru/" method="post">
+                        <div class="proect__content w-imgwidth text-center sm:w-full lg:w-imgwidth">
+                            <label>
+                                <input class="proect__input block border-2 py-4 mb-5 pl-7  w-full  border-amber-500"
+                                    type="text" placeholder="Ваше имя">
+                                <input class="proect__tel block border-2 py-4 mb-8 pl-7  w-full border-amber-500"
+                                    type="tel" placeholder="Номер телефона">
+                                <button class=" block border-2 w-full text-center py-4 bg-yellow-500 text-white"
+                                    type="submit">Отправить</button>
+                            </label>
+                        </div>
+                        <textarea class="border-2 w-full h-60 pl-8 pt-4 border-amber-500  sm:w-full sm:ml-0 " cols="30"
+                            rows="10" placeholder="Ваш отзыв"></textarea>
 
-        </div>
-    </section>
-    <div class="">
+                    </form>
 
-    </div>
-
-<!-- --------------------------Form----------------------------- -->
-<section class="proect">
-    <div class="container mx-auto px-5">
-        <div class="proect__inner">
-            <h2 class="proect__title text-5xl mb-5">Заказывали проект у нас?</h2>
-            <p class="proect__text text-lg">Оставьте ваш отзыв в форме ниже и мы его опубликуем на нашем сайте</p>
-            <form class=" flex gap-11 mt-16 mb-16" action="https://echo.htmlacademy.ru/" method="post">
-                <div class="proect__content w-imgwidth text-center">
-                    <label>
-                        <input class="proect__input block border-2 py-4 mb-5 pl-7  w-full  border-amber-500" type="text" placeholder="Ваше имя">
-                        <input class="proect__tel block border-2 py-4 mb-8 pl-7  w-full border-amber-500" type="tel" placeholder="Номер телефона">
-                        <button class=" block border-2 w-full text-center py-4 bg-yellow-500 text-white" type="submit">Отправить</button>
-                    </label>
                 </div>
-                <textarea class="border-2 w-familyContent h-60 pl-8 pt-4 border-amber-500 ml-10 "  cols="30" rows="10" placeholder="Ваш отзыв" ></textarea>
-
-            </form>
-
-        </div>
-    </div>
-   </section>
- </main>
+            </div>
+        </section>
+    </main>
 
     <!-- -----------------------------------Footer----------------------------------------------------- -->
 
     <footer class="bottom bg-black">
         <div class="container mx-auto px-5">
-            <div class="aliqa aloqa__inner flex items-center justify-between">
+            <div
+                class="aliqa aloqa__inner flex pt-14    items-center justify-between  sm:flex-wrap md:flex-wrap relative lg:flex-nowrap">
                 <a href="./glavni.html">
-                    <img class="footer-logo mt-14" src="/1-2-3-page-image/header-logo.svg" alt="footer-logo" width="350"
-                        height="240">
-
+                    <img class="footer-logo pr-5  " src="/1-2-3-page-image/header-logo.svg" alt="footer-logo"
+                        width="350" height="240">
+                    sm:flex-col-reverse md:flex-col-reverse
                 </a>
-                <div class="aloqa__contents flex justify-between">
+
+                <div
+                    class="aloqa__contents flex justify-between  sm:w-full md:w-full sm:flex-col-reverse md:flex-col-reverse lg:flex-row lg:justify-between ">
                     <!-- ---------------------------------------------------------------------------------------- -->
-                    <div class="informatsia  ">
+                    <div class="informatsia  sm:mb-5 md:mb-5  ">
+                        <hr class="border border-amber-500 sm:w-full sm:mb-5 md:mb-5 lg:hidden">
                         <strong class="strong text-white ">Информация</strong>
-                        <ol class="aloqa__list text-white mt-5">
+                        <ol class="aloqa__list text-white mt-5 sm:hidden md:hidden  lg:block ">
 
 
 
@@ -129,7 +145,8 @@
 
 
                     <!-- ----------------------------------------------------------------------------------------- -->
-                    <div class="kontact text-white ml-36">
+                    <div
+                        class="kontact text-white ml-36   sm:absolute sm:righ-32 sm:top-20 sm:left-56  md:absolute md:right-32  md:top-20 lg:relative lg:top-0 lg:right-0 lg:left-0 lg:w-full">
                         <strong class="strong ">Контакты</strong>
                         <a class="kontact__tel block mt-5 mb-3  hover:border-b-2 border-amber-500"
                             href="tel:+998946279427">
@@ -142,9 +159,10 @@
                     </div>
 
                     <!-- ---------------------------------------------------------------------------------------- -->
-                    <div class="ceti text-white ml-28">
+                    <div class="ceti text-white ml-28  sm:mb-5 md:mb-5  sm:w-full md:w-full sm:ml-0 lg:ml-28 
+                      md:ml-0">
                         <strong class="strong ">Соц. сети</strong>
-                        <ol class="ceti__list flex gap-5 mt-5">
+                        <ol class="ceti__list flex justify-between gap-5 mt-5 sm:w-full md:w-full lg:justify-start ">
                             <li class="ceti__item">
                                 <a href="https://www.facebook.com/">
                                     <img class="ceti__imgf p-3 border-2 border-orange-300"
@@ -177,7 +195,7 @@
             </div>
             <!-- ---------------------------------------------------------------------------------------- -->
             <hr class="chiziq border border-amber-500">
-            <div class="end flex items-center justify-between my-14 ">
+            <div class="end flex items-center justify-between my-14  sm:flex-col lg:flex-row">
                 <span class="end__span mb-12">
                     <a class="end__link text-white border-b-2 hover:border-amber-500" href="./glavni.html">
                         Политика конфиденциальности
