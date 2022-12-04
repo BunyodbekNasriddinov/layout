@@ -570,7 +570,7 @@ video {
 
 .left-0 {
   left: 0px;
-=======
+}
 .col-start-1 {
   grid-column-start: 1;
 }
@@ -762,7 +762,7 @@ video {
 
 .mr-5 {
   margin-right: 1.25rem;
-
+}
 .mt-7 {
   margin-top: 1.75rem;
 
@@ -1214,7 +1214,7 @@ video {
 
 .pr-5 {
   padding-right: 1.25rem;
-
+}
 .pt-7 {
   padding-top: 1.75rem;
 }
@@ -1484,7 +1484,7 @@ video {
 
   .sm\:h-32 {
     height: 8rem;
-
+  }
   .sm\:mb-10 {
     margin-bottom: 2.5rem;
   }
@@ -1559,7 +1559,7 @@ video {
   .sm\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-
+  }
   .sm\:pb-10 {
     padding-bottom: 2.5rem;
   }
@@ -1942,7 +1942,7 @@ video {
 
   .lg\:h-52 {
     height: 13rem;
-
+  }
   .lg\:mt-7 {
     margin-top: 1.75rem;
 
@@ -2019,7 +2019,7 @@ video {
 
   .lg\:gap-11 {
     gap: 2.75rem;
-
+  }
   .lg\:border-r-2 {
     border-right-width: 2px;
 
