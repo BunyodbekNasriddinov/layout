@@ -27,12 +27,10 @@ module.exports = {
       },
 
       backgroundImage: {
-<<<<<<< HEAD
         "hero-pattern": "url('/1-2-3-page-image/header-bg.jpg')",
-        uslug1: "url('/1-2-3-page-image/uslug-bg1.jpg')",
-        uslug2: "url('/1-2-3-page-image/uslug-bg2.jpg')",
-        uslug3: "url('/1-2-3-page-image/uslug-bg3.jpg')",
-=======
+        "uslug1": "url('/1-2-3-page-image/uslug-bg1.jpg')",
+        "uslug2": "url('/1-2-3-page-image/uslug-bg2.jpg')",
+        "uslug3": "url('/1-2-3-page-image/uslug-bg3.jpg')",
         'hero-pattern': "url('/1-2-3-page-image/header-bg.jpg')",
 
         'uslug1': "url('/1-2-3-page-image/uslug-bg1.jpg')",
@@ -50,12 +48,6 @@ module.exports = {
         'tel': "url('/1-2-3-page-image/telefon.svg')",
         'email': "url('/1-2-3-page-image/email.svg')",
         'befor': "url('/1-2-3-page-image/bg-lefit.svg')",
-        
-       
-      
-
->>>>>>> b7ab68d23fa16af0558d36d300d224a6d043c3a7
-
         card1: "url('/1-2-3-page-image/card1.jpg')",
         card2: "url('/1-2-3-page-image/card2.jpg')",
         card3: "url('/1-2-3-page-image/card3.jpg')",
